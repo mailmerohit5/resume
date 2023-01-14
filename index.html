@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -18,7 +19,7 @@
                     xl: "1280px",
                 },
                 extend: {
-
+                  
                     fontSize: {
                         sm2: "0.69rem", // 15px label
                         sm: "0.7rem",
@@ -119,10 +120,8 @@
 html {
   font-size: 11px;
   background-color: #f4f4f7;
-  background-image: -webkit-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
- background-image: -moz-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
- background-image: -o-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
- background-image: radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+  background-image: linear-gradient(#8b9da9, #fff6e4);
+ box-shadow: inset 0 0 100px hsla(0,0%,0%,.3);
 }
 
 @screen sm {
@@ -154,10 +153,11 @@ i:hover {
   color: #3c3f4c !important;
 }   
   </style>
+  
 </head>
 
 <body>
-    <main class="hyphens-manual">
+    <main class=" hyphens-manual">
         <!-- Page -------------------------------------------------------------------------------------------------------->
         <div class="mb-2  page print:max-w-letter print:max-h-letter print:my-o lg:h-letter md:max-w-letter md:h-letter mx-auto my-auto max-w-3xl rounded-2xl border-4 border-gray-700 bg-gray-100 p-3 print:mx-0 print:border-0 print:bg-white xsm:p-8 sm:p-9 md:p-16 lg:mt-6">
           <!-- Name ---------------------------------------------------------------------------------------------------->
@@ -184,13 +184,13 @@ i:hover {
               <div class="break-inside-avoid">
                 <section class="mb-2 break-inside-avoid border-b-2 pb-2">
                   <ul class="list-inside pr-7">
-                    <li class="text-gray-550 text-md print: mt-1 leading-normal text-black transition duration-100 ease-in hover:text-gray-700">
+                    <!-- <li class="text-gray-550 text-md print: mt-1 leading-normal text-black transition duration-100 ease-in hover:text-gray-700">
                       <a href="https://rohitsharma.online"  target="_blank" class="group">
                         <span class="leading-snugish mr-2 text-lg font-semibold text-gray-700"> Portfolio: </span>
                         rohitsharma.online
                         <span class="text-gray-550 print: inline-block font-normal text-black transition duration-100 ease-in group-hover:text-gray-700 print:text-black"> ↗ </span>
                       </a>
-                    </li>
+                    </li> -->
                     <li class="text-gray-550 text-md mt-1 leading-normal transition duration-100 ease-in hover:text-gray-700">
                       <a href="https://github.com/mailmerohit5" target="_blank" class="group">
                         <span class="leading-snugish mr-5 text-lg font-semibold text-gray-700"> Github: </span>
@@ -330,10 +330,7 @@ i:hover {
                       <span class="text-gray-550 -translate-y-px transform select-none"> &rsaquo; </span>
                       documented on going projects source code
                     </li>
-                    <li>
-                      <span class="text-gray-550 -translate-y-px transform select-none"> &rsaquo; </span>
-                      
-                    </li>
+                   
                    
                   </ul>
                 </section>
@@ -416,8 +413,8 @@ i:hover {
                     58.11% (Second)
                   </p>
                 </section>
-                 <!--school 3--------------------------------------------------------------------------------------------->
-                 <section class="mt-4 mb-4 break-inside-avoid border-b-2 pb-4">
+                 <!--school 4--------------------------------------------------------------------------------------------->
+                 <section class="mt-4 mb-4 break-inside-avoid  pb-4">
                   <header>
                     <h3 class="leading-snugish flex-grow text-lg font-semibold text-gray-700">+2 Zila School Gaya, Gaya(BIHAR)</h3>
                     <p class="text-md text-gray-550 leading-normal">2005 &ndash; 2006 | S.S.C</p>
@@ -431,8 +428,10 @@ i:hover {
                     65.85% (First)
                   </p>
                 </section>
-      
-       
+              </div>
+              </section>
+              
+            
             <!--Projects ---------------------------------------------------------------------------------------------------------->
             <section class="mt-4 border-b-4 pb-2 pb-4 first:mt-0">
               <div class="break-inside-avoid">
@@ -442,74 +441,80 @@ i:hover {
                 <section class="mb-4 break-inside-avoid border-b-2 pb-4">
                   <header>
                     <h3 class="leading-snugish text-lg font-semibold text-gray-700">
-                      <a href="https://github.com/WebPraktikos/universal-resume" class="group">
-                        Portfolio Website
+                      <a href="https://www.coai.com/"  target="_blank" class="group">
+                        COAI 
                         <span class="text-gray-550 mr-3 inline-block font-normal transition duration-100 ease-in group-hover:text-gray-700 print:text-black"> ↗ </span>
                       </a>
                       <span class="text-gray-550 inline-block font-normal transition duration-100 ease-in group-hover:text-gray-700 print:text-black">
-                        <a href="https://github.com/Thomashighbaugh/ThomasLeonHighbaugh-Personal-Site">
+                        <a href="https://www.coai.com/" target="_blank">
                           <i class="fab fa-github"></i>
                         </a>
                       </span>
                     </h3>
-                    <p class="text-md text-gray-550 leading-normal">Since 2019 | JSX, React, Next.js, SCSS</p>
+                    <p class="text-md text-gray-550 leading-normal">Laravel, MySQL, Livewire, jQuery, Bootstrap, GrapeJS | Role : Team Lead</p>
                   </header>
-                  <p class="mt-2.1 text-md leading-normal text-gray-700">A unique and streamlined developer portfolio site that combines the useful aspect of development portfolios with a blog using Next.js. Interface is clean and features graphics designed personally for use within the site.</p>
+                  <p class="mt-2.1 text-md leading-normal text-gray-700">COAI is a well-organized website that provides valuable information for partners, government, students, and the general public. The site is user-friendly and has a sleek design. It also includes a backend panel for content management and integration with multiple APIs.</p>
                 </section>
-                <!--Project 2-->
-                <section class="mb-4 break-inside-avoid border-b-2 pb-4">
+                 <!--Project 2 --------------------------------------------------------------------------------------------------------->
+                 <section class="mb-4 break-inside-avoid border-b-2 pb-4">
                   <header>
                     <h3 class="leading-snugish text-lg font-semibold text-gray-700">
-                      <a href="https://github.com/WebPraktikos/tailwindcss-rich-docs" class="group">
-                        Keeper CRM
+                      <a href="https://diyorajewellery.in/" target="_blank" class="group">
+                        DIYORA NXT 
                         <span class="text-gray-550 mr-3 inline-block font-normal transition duration-100 ease-in group-hover:text-gray-700 print:text-black"> ↗ </span>
                       </a>
                       <span class="text-gray-550 inline-block font-normal transition duration-100 ease-in group-hover:text-gray-700 print:text-black">
-                        <a href="https://github.com/Thomashighbaugh/mern-contact-keeper">
+                        <a href="https://diyorajewellery.in/" target="_blank">
                           <i class="fab fa-github"></i>
                         </a>
                       </span>
                     </h3>
-                    <p class="text-md text-gray-550 leading-normal">2021 | MERN</p>
+                    <p class="text-md text-gray-550 leading-normal">Laravel, MySQL, Livewire, jQuery, Bootstrap, Postman | Role : Team Lead</p>
                   </header>
-                  <p class="mt-2.1 text-md leading-normal text-gray-700">Written as part of the process of learning the MERN stack, this application stores contacts for registered users and saves the information they input between sessions.</p>
+                  <p class="mt-2.1 text-md leading-normal text-gray-700">Diyora Nxt is a solution that enables Diyora retailers to display various jewelry designs to customers using tablets and to process custom orders through a backend panel. Additionally, the system allows administrators to manage products, prices, retailers, and tablet devices.</p>
                 </section>
-                <!--Project 3---------------------------------------------------------->
-                <section class="mb-4 break-inside-avoid border-b-2 pb-4">
+                 <!--Project 3 --------------------------------------------------------------------------------------------------------->
+                 <section class="mb-4 break-inside-avoid border-b-2 pb-4">
                   <header>
                     <h3 class="leading-snugish text-lg font-semibold text-gray-700">
-                      <a href="https://g5-blog-ccl-ife.vercel.app/" class="group">
-                        Crazy-Wise Gatsby Starter
+                      <a href="https://web.rpndeal.com/"  target="_blank" class="group">
+                        RPNDEAL
                         <span class="text-gray-550 mr-3 inline-block font-normal transition duration-100 ease-in group-hover:text-gray-700 print:text-black"> ↗ </span>
                       </a>
                       <span class="text-gray-550 inline-block font-normal transition duration-100 ease-in group-hover:text-gray-700 print:text-black">
-                        <a href="https://github.com/Thomashighbaugh/crazy-wise-gatsby-starter">
+                        <a href="https://web.rpndeal.com/" target="_blank">
                           <i class="fab fa-github"></i>
                         </a>
                       </span>
                     </h3>
-                    <p class="text-md text-gray-550 leading-normal">2020 | React, Styled Components, Gatsby.js</p>
+                    <p class="text-md text-gray-550 leading-normal">Laravel, MySQL, Livewire, Angular, Ionic, Cordova, Bootstrap | Role : Full Stack Developer</p>
                   </header>
-                  <p class="mt-2.1 text-md leading-normal text-gray-700">A starter blog for Gatsby.js that has tinaCMS integrated into development server to ease the production of content and a very distinct appearance that is both modern and functional. All graphics used in the page heroes are custom pieces made for the site.</p>
+                  <p class="mt-2.1 text-md leading-normal text-gray-700">This is an app that combines Angular and Laravel with an Android app. It supports a hierarchical user structure and offers a portal for tasks such as recharge, money transfer, and bill payments. Additionally, it has e-commerce functionality.</p>
                 </section>
-                <!--Project 4---------------------------------------------------------->
-                <section class="mb-2 break-inside-avoid">
+                <!--Project 3 --------------------------------------------------------------------------------------------------------->
+                <section class="mb-4 break-inside-avoid  pb-4">
                   <header>
                     <h3 class="leading-snugish text-lg font-semibold text-gray-700">
-                      <a href="https://github.com/Thomashighbaugh/Opitx/releases" class="group">
-                        Opitx Markdown Editor
+                      <a href="https://play.google.com/store/apps/details?id=in.rcube.rcubeScanner&hl=en_IN&gl=US" target="_blank" class="group">
+                        RCUBE SCANNER
                         <span class="text-gray-550 mr-3 inline-block font-normal transition duration-100 ease-in group-hover:text-gray-700 print:text-black"> ↗ </span>
                       </a>
                       <span class="text-gray-550 inline-block font-normal transition duration-100 ease-in group-hover:text-gray-700 print:text-black">
-                        <a href="https://github.com/Thomashighbaugh/Opitx/releases">
+                        <a href="https://play.google.com/store/apps/details?id=in.rcube.rcubeScanner&hl=en_IN&gl=US" target="_blank">
                           <i class="fab fa-github"></i>
                         </a>
                       </span>
                     </h3>
-                    <p class="text-md text-gray-550 leading-normal">2019 | Electron, React, SCSS</p>
+                    <p class="text-md text-gray-550 leading-normal">Angular, Ionic, Cordova, Capacitor, PlayStore  | Role : Developer</p>
                   </header>
-                  <p class="mt-2.1 text-md leading-normal text-gray-700">An answer to a personal problem with Markdown editors avalable on Linux which provided a less than transparent process of saving in user defined locations that evolved into a Markdown editor written using electron and packaged for all major Linux distributions.</p>
+                  <p class="mt-2.1 text-md leading-normal text-gray-700">It is an app that allows you to scan documents using your mobile phone and save
+                     them directly to your phone's storage.The app features various functions such as the ability to scan any type of document quickly, including text and graphics,
+                      multi-page documents, batch scanning, automatic cropping, manual cropping, smart filtering, various filter modes.
+                      </p>
                 </section>
+
+               
+                
               </div>
             </section>
             <!--Begin Skills ----------------------------------------------------------------------------------------------------->
@@ -532,6 +537,7 @@ i:hover {
                       <li class="mr-1.6 print:border-inset bg-gray-250 mb-1 px-2.5 leading-relaxed text-gray-200 print:bg-white">TailwindCss</li>
                       <li class="mr-1.6 print:border-inset bg-gray-250 mb-1 px-2.5 leading-relaxed text-gray-200 print:bg-white">Bootstrap</li>
                       <li class="mr-1.6 print:border-inset bg-gray-250 mb-1 px-2.5 leading-relaxed text-gray-200 print:bg-white">Javascript(ES6)</li>
+                      <li class="mr-1.6 print:border-inset bg-gray-250 mb-1 px-2.5 leading-relaxed text-gray-200 print:bg-white">jQuery</li>
       
                       <li class="mr-1.6 print:border-inset bg-gray-250 mb-1 px-2.5 leading-relaxed text-gray-200 print:bg-white">Typescript</li>
                       <li class="mr-1.6 print:border-inset bg-gray-250 mb-1 px-2.5 leading-relaxed text-gray-200 print:bg-white">Angular</li>
